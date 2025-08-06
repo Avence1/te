@@ -1,7 +1,7 @@
-import React, { useEffect } from "react";
+import PetView from "./components/PetView";
 
 function App() {
-  return <>hahahahh</>;
+  return <PetView />;
 }
 
 export default App;

@@ -1,9 +1,9 @@
 {
   "name": "te",
   "productName": "te",
-  "version": "1.0.0",
-  "type": "module",
+  "version": "1.0.1",
   "description": "My Electron application description",
+  "author": "Avence",
   "main": ".vite/build/main.js",
   "scripts": {
     "start": "electron-forge start",
@@ -23,6 +23,7 @@
     "@electron-forge/plugin-auto-unpack-natives": "^7.8.1",
     "@electron-forge/plugin-fuses": "^7.8.1",
     "@electron-forge/plugin-vite": "^7.8.1",
+    "@electron-forge/publisher-github": "^7.8.3",
     "@electron/fuses": "^1.8.0",
     "@types/electron-squirrel-startup": "^1.0.2",
     "@types/react": "^19.1.8",
@@ -42,5 +43,8 @@
     "electron-squirrel-startup": "^1.0.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
+  },
+  "overrides": {
+    "@electron/node-gyp": "git+https://github.com/electron/node-gyp.git#06b29aafb7708acef8b3669835c8a7857ebc92d2"
   }
 }
