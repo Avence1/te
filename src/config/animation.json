@@ -1,0 +1,66 @@
+{
+    "idle": {
+        "squat": {
+            "path": [
+                "/0000_core/pet/vup/IDEL/Squat/A_Nomal/*.png",
+                "/0000_core/pet/vup/IDEL/Squat/B_Nomal/*/*.png",
+                "/0000_core/pet/vup/IDEL/Squat/C_Nomal/*.png"
+            ]
+        }
+    },
+    "sleep": {
+        "normal": {
+            "path": [
+                "/0000_core/pet/vup/Sleep/A_Nomal/*.png",
+                "/0000_core/pet/vup/Sleep/B_Nomal/*.png",
+                "/0000_core/pet/vup/Sleep/C_Nomal/*.png"
+            ]
+        },
+        "happy": {
+            "path": [
+                "/0000_core/pet/vup/Sleep/A_Happy/*.png",
+                "/0000_core/pet/vup/Sleep/B_Happy/*.png",
+                "/0000_core/pet/vup/Sleep/C_Happy/*.png"
+            ]
+        },
+        "poorCondition": {
+            "path": [
+                "/0000_core/pet/vup/Sleep/A_PoorCondition/*.png",
+                "/0000_core/pet/vup/Sleep/B_PoorCondition/*.png",
+                "/0000_core/pet/vup/Sleep/C_PoorCondition/*.png"
+            ]
+        },
+        "ill": {
+            "path": [
+                "/0000_core/pet/vup/Sleep/A_ill/*.png",
+                "/0000_core/pet/vup/Sleep/B_ill/*.png",
+                "/0000_core/pet/vup/Sleep/C_ill/*.png"
+            ]
+        }
+    },
+    "touchBody": {
+        "happy": {
+            "tb1": {
+                "path": [
+                    "/0000_core/pet/vup/Touch_Body/A_Happy/tb1/*.png",
+                    "/0000_core/pet/vup/Touch_Body/B_Happy/tb1/*.png",
+                    "/0000_core/pet/vup/Touch_Body/C_Happy/tb1/*.png"
+                ]
+            },
+            "tb2": {
+                "path": [
+                    "/0000_core/pet/vup/Touch_Body/A_Happy/tb2/*.png",
+                    "/0000_core/pet/vup/Touch_Body/B_Happy/tb2/*.png",
+                    "/0000_core/pet/vup/Touch_Body/C_Happy/tb2/*.png"
+                ]
+            }
+        },
+        "ill": {
+            "path": [
+                "/0000_core/pet/vup/Touch_Body/A_ill/*.png",
+                "/0000_core/pet/vup/Touch_Body/B_ill/*.png",
+                "/0000_core/pet/vup/Touch_Body/C_ill/*.png"
+            ]
+        }
+    }
+}
